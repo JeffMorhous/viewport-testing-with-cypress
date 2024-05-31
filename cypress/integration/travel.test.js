@@ -11,7 +11,7 @@ describe("Cypress Viewport Tests Suite", () => {
         cy.contains("Your favorite places are waiting! Let us help bring your dreams to life")
     })
 
-    context("desktop viewport", () => {
+    context("desktop viewport tests", () => {
         beforeEach(() => {
             cy.viewport(1536, 960)
             // Runs the tests in this context for the resolution defined
